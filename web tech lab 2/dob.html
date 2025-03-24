@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date of Birth Validation</title>
+</head>
+<body>
+
+    <form id="dobForm">
+        <label>Date of Birth:</label>
+        <input type="number" id="day" placeholder="dd" min="1" max="31"> /
+        <input type="number" id="month" placeholder="mm" min="1" max="12"> /
+        <input type="number" id="year" placeholder="yyyy" min="1900" max="2016">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="dobError" style="color: red;"></p>
+
+    <script src="/scripts/dob.js"></script>
+
+</body>
+</html>
